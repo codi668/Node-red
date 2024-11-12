@@ -18,3 +18,17 @@ Zuerst sollte sichergestellt werden, dass das System auf dem neuesten Stand ist.
 sudo apt update
 sudo apt upgrade -y
 ```
+## Schritt 2: Node-RED Installationsskript ausführen
+
+Node-RED bietet ein Installationsskript speziell für den Raspberry Pi, das alle notwendigen Abhängigkeiten und Node.js installiert. Um das Skript herunterzuladen und auszuführen, gib folgenden Befehl ein:
+
+```bash
+bash <(curl -sL https://raw.githubusercontent.com/node-red/linux-installers/master/deb/update-nodejs-and-nodered)
+```
+## Schritt 3: Node-RED als Dienst einrichten (optional)
+
+Um Node-RED automatisch beim Systemstart zu starten, aktiviere den Dienst mit folgendem Befehl:
+
+```bash
+sudo systemctl enable nodered.service
+```
