@@ -50,6 +50,11 @@ Node-RED sollte jetzt auf Port 1880 laufen. Du kannst über einen Webbrowser dar
 http://<IP-Adresse-deines-Raspberry-Pi>:1880
 ```
 
+## Weitere Ressourcen
+
+Weitere Anleitungen und Dokumentation findest du auf der offiziellen [Node-RED Webseite](https://nodered.org/docs/).
+
+
 
 
 
