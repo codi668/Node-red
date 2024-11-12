@@ -32,3 +32,24 @@ Um Node-RED automatisch beim Systemstart zu starten, aktiviere den Dienst mit fo
 ```bash
 sudo systemctl enable nodered.service
 ```
+
+```bash
+bashsudo systemctl start nodered.service
+```
+
+## Schritt 4: Node-RED manuell starten
+
+Falls Node-RED manuell gestartet werden soll, verwende folgenden Befehl:
+
+```bash
+node-red-start
+```
+
+Node-RED sollte jetzt auf Port 1880 laufen. Du kannst über einen Webbrowser darauf zugreifen unter:
+```bash
+http://<IP-Adresse-deines-Raspberry-Pi>:1880
+```
+
+
+
+
