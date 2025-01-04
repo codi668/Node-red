@@ -34,7 +34,7 @@ sudo systemctl enable nodered.service
 ```
 
 ```bash
-bashsudo systemctl start nodered.service
+sudo systemctl start nodered.service
 ```
 
 ## Schritt 4: Node-RED manuell starten
